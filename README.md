@@ -367,8 +367,6 @@ A: `python evaluate.py --checkpoint outputs/final100/best.pt`。
 **Q: 如何用于报告中的对比实验？**  
 A: 每次训练使用不同的 `--output-dir`（如 `outputs/final100`、`outputs/no_aug100`），再汇总各自的 `run_summary.json` 与 `test_metrics.json`。已完成的加分项见第 13 节。
 
-## 13. 报告与加分项
+## 13. 完成的加分项
 
-- 最终实验报告：[`CIFAR10实验报告.docx`](CIFAR10实验报告.docx)（6 页，含最小基线、三项方法原理、七组 100 epoch 数据对比、SE 收益边界与 SE×调度交互、结论）；
-- 实验报告的结构、每章要点、图表取数位置与提交检查清单见 [`REPORT_GUIDE.md`](REPORT_GUIDE.md)；
-- 已完成的加分项：**数据增强、学习率调度、SE**（SE 通道注意力）。对应配置、命令和结果见第 3.1 节；SE 通过 `--use-se` / `--se-stages` / `--se-init-bias` 控制，并提供 `scripts/analyze_se.py`、`scripts/compare_runs.py` 与 `scripts/analyze_interaction.py`。
+当前已完成**数据增强、学习率调度、SE**（SE 通道注意力）。对应配置、命令和结果见第 3.1 节；SE 通过 `--use-se` / `--se-stages` / `--se-init-bias` 控制，并提供 `scripts/analyze_se.py`、`scripts/compare_runs.py` 与 `scripts/analyze_interaction.py`。
