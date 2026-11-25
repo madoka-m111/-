@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 数据集与训练产物（体积较大，不纳入版本控制）
+data/
+outputs/
+
+# 编辑器配置
+.vscode/
+.idea/
+.DS_Store
