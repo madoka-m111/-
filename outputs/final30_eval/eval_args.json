@@ -1,0 +1,35 @@
+{
+  "checkpoint": "outputs/final30/best.pt",
+  "data_root": "data",
+  "output_dir": "outputs/final30_eval",
+  "batch_size": 256,
+  "num_workers": 0,
+  "download": false,
+  "device": "auto",
+  "amp": false,
+  "max_batches": 0,
+  "seed": 42,
+  "model_name": "cifar_cnn",
+  "use_se": false,
+  "se_reduction": 16,
+  "se_stages": [
+    1,
+    2,
+    3
+  ],
+  "se_init_bias": 0.0,
+  "class_names": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "checkpoint_epoch": 29,
+  "checkpoint_best_val_acc": 0.9146
+}

@@ -1,0 +1,10 @@
+{
+  "model": "cifar_cnn",
+  "num_parameters": 1148874,
+  "epochs_completed": 30,
+  "best_epoch": 30,
+  "best_val_accuracy": 0.919,
+  "test_accuracy": 0.9128,
+  "test_macro_f1": 0.9126519615857844,
+  "device": "cpu"
+}

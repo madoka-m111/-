@@ -1,0 +1,35 @@
+{
+  "checkpoint": "outputs\\no_sched100\\best.pt",
+  "data_root": "data",
+  "output_dir": "outputs\\no_sched100_eval",
+  "batch_size": 128,
+  "num_workers": 0,
+  "download": false,
+  "device": "auto",
+  "amp": false,
+  "max_batches": 0,
+  "seed": 42,
+  "model_name": "cifar_cnn",
+  "use_se": false,
+  "se_reduction": 16,
+  "se_stages": [
+    1,
+    2,
+    3
+  ],
+  "se_init_bias": 0.0,
+  "class_names": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "checkpoint_epoch": 68,
+  "checkpoint_best_val_acc": 0.8582
+}

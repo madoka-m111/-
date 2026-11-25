@@ -1,0 +1,38 @@
+CIFAR-10 Test Set Classification Report
+=========================================================
+Samples        : 10000
+Loss           : 0.2606
+Accuracy       : 0.9127
+Top-3 accuracy : 0.9898
+Macro F1       : 0.9127
+Weighted F1    : 0.9127
+Errors         : 873
+
+       class  precision     recall   f1-score   support
+---------------------------------------------------------
+    airplane     0.8828     0.9420     0.9115      1000
+  automobile     0.9732     0.9440     0.9584      1000
+        bird     0.9301     0.8520     0.8894      1000
+         cat     0.8270     0.8320     0.8295      1000
+        deer     0.8888     0.9350     0.9113      1000
+         dog     0.8652     0.8600     0.8626      1000
+        frog     0.9042     0.9630     0.9327      1000
+       horse     0.9658     0.9050     0.9344      1000
+        ship     0.9412     0.9600     0.9505      1000
+       truck     0.9599     0.9340     0.9468      1000
+---------------------------------------------------------
+   macro avg     0.9138     0.9127     0.9127     10000
+weighted avg     0.9138     0.9127     0.9127     10000
+    accuracy                           0.9127     10000
+
+Top confusions (true -> predicted):
+         dog -> cat          87 (8.70% of true class)
+         cat -> dog          74 (7.40% of true class)
+        bird -> deer         39 (3.90% of true class)
+        bird -> airplane     34 (3.40% of true class)
+        bird -> frog         32 (3.20% of true class)
+       horse -> dog          32 (3.20% of true class)
+         cat -> frog         27 (2.70% of true class)
+  automobile -> truck        26 (2.60% of true class)
+        ship -> airplane     25 (2.50% of true class)
+       horse -> deer         24 (2.40% of true class)
