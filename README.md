@@ -36,8 +36,7 @@
 │   ├── compare_runs.py        # 两个 run 的 McNemar / 配对 bootstrap / 每类差异
 │   ├── analyze_interaction.py # 调度 × SE 的 2×2 交互与联合 bootstrap
 │   └── analyze_se.py          # SE 门控统计（通道/样本/交互项）
-├── README.md
-└── REPORT_GUIDE.md           # 实验报告写作指南（结构、取数、检查清单）
+└── README.md           
 ```
 
 运行后自动生成（每次实验一个子目录；下例为 100 epoch 最终模型）：
